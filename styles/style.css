@@ -104,6 +104,11 @@
   .navbar .navbar-container .navbar-menu.active {
     transform: translateX(0);
   }
+  .navbar .navbar-container .navbar-menu-cta {
+    right: 0;
+    margin: 0 1.2em;
+    position: fixed;
+  }
   .navbar .navbar-container .navbar-menu-cta.is-active .cta-bar:nth-child(2) {
     opacity: 0;
   }
